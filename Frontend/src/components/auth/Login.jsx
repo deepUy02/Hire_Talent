@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../shared/Navbar";
 import { Label } from "../ui/label";
 import { Input } from "../ui/input";
@@ -49,6 +49,11 @@ const Login = () => {
           dispatch(setLoading(false));
       }
 }
+useEffect(() => {
+    if(user){
+        navigate("/");
+    }
+},[])
   return (
       <div>
           <Navbar />
