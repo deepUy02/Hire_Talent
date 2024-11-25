@@ -43,7 +43,7 @@
 
 ## 🔗 Links
 
-- **GitHub Repository**: [Hire Talent Repository](https://github.com/deepUy02/hire-talent)  
+- **GitHub Repository**: [Hire Talent Repository](https://github.com/deepUy02/Hire_Talent)  
 - **Deployed Application**: [Hire Talent Live](https://hire-talent.onrender.com)
 
 ---
