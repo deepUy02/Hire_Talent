@@ -32,9 +32,9 @@ app.use("/api/v1/company", companyRoute);
 app.use("/api/v1/job", jobRoute);
 app.use("/api/v1/application", applicationRoute);
 
-app.use(express.static(path.join(_dirname, "/frontend/dist")));
+app.use(express.static(path.join(_dirname, "/Frontend/dist")));
 app.get('*', (req, res) => {
-    res.sendFile(path.resolve(_dirname, 'frontend', 'dist', 'index.html'));
+    res.sendFile(path.resolve(_dirname, 'Frontend', 'dist', 'index.html'));
 })
 
 app.listen(PORT,()=>{
